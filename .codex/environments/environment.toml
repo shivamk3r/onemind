@@ -1,0 +1,14 @@
+# Codex-only environment notes for this repository.
+# Portable agent behavior belongs in AGENTS.md and .agents/.
+
+[environment]
+name = "onemind"
+purpose = "Research-draft workspace for trusted mediation and human coordination."
+
+[read_first]
+files = [
+  "AGENTS.md",
+  "README.md",
+  "CONTRIBUTING.md",
+  "SECURITY.md"
+]

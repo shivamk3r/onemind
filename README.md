@@ -142,12 +142,26 @@ templates that best matches your contribution.
 
 ```text
 .
+|-- AGENTS.md
+|-- CLAUDE.md -> AGENTS.md
 |-- README.md
 |-- CONTRIBUTING.md
 |-- CODE_OF_CONDUCT.md
 |-- SECURITY.md
 |-- LICENSE
 |-- LICENSE-DOCS.md
+|-- .agents/
+|   |-- skills/
+|   `-- commands/
+|-- .claude/
+|   |-- skills -> ../.agents/skills
+|   `-- commands -> ../.agents/commands
+|-- .cursor/
+|   |-- skills -> ../.agents/skills
+|   `-- commands -> ../.agents/commands
+|-- .codex/
+|   |-- skills -> ../.agents/skills
+|   `-- environments/
 |-- docs/
 |   |-- decisions-and-actions.md
 |   `-- research-paper-plan.md
@@ -155,6 +169,18 @@ templates that best matches your contribution.
     |-- ISSUE_TEMPLATE/
     `-- PULL_REQUEST_TEMPLATE.md
 ```
+
+## Agent Context
+
+AI agents should start with [AGENTS.md](AGENTS.md), the canonical operating
+guide for this repository. Portable reusable workflows live in
+[.agents/skills](.agents/skills), and lightweight saved prompts live in
+[.agents/commands](.agents/commands).
+
+The `.claude`, `.cursor`, and `.codex` directories are compatibility layers.
+They point back to the shared `.agents` assets with symlinks so agent behavior
+has one source of truth. Codex-only setup belongs under `.codex/environments/`;
+portable skills and commands should not be duplicated in tool-specific folders.
 
 ## Public Safety Rules
 
