@@ -16,7 +16,7 @@ OneMind asks whether an omniscient trusted mediator can reduce these failures by
 
 ## Core Thesis
 
-OneMind does not claim to magically solve every game theory problem or guarantee a universal optimum in every setting. Instead, it frames a narrower and more defensible research question:
+OneMind is a proposal about the solvability boundary of human coordination under complete mediation. It asks which strategic problems collapse when a trusted mediator has complete information, universal reachability, and the ability to communicate with each participant.
 
 Can an omniscient, benevolent, and universally trusted mediator transform certain adversarial, search, bargaining, and coordination games into better cooperative or mediated games under explicit assumptions about complete information, trust, communication, and participant reachability?
 
@@ -31,6 +31,30 @@ The thesis is that many real-world games become easier when a trusted mediator c
 - introduce people, negotiate terms, and mediate misunderstandings,
 - help participants distinguish evidence, inference, preference, and uncertainty,
 - recommend no action when action would make the overall situation worse.
+
+## Solvability Boundary
+
+OneMind should distinguish between games that are solvable by omniscient mediation and games that remain structurally hard even under omniscience.
+
+Problems OneMind can solve or greatly reduce include:
+
+- **Incomplete-information failures:** participants do not know each other's preferences, constraints, plans, beliefs, or available options.
+- **Search failures:** compatible people, needs, skills, resources, or opportunities exist but cannot find each other.
+- **Coordination failures:** participants prefer the same outcome but fail to select it because they lack common knowledge, timing, or a trusted signal.
+- **Mistrust failures:** participants would cooperate if a trusted mediator could verify intent, remember commitments, or explain likely behavior.
+- **Communication failures:** participants need to ask, warn, clarify, apologize, negotiate, or disclose something at the right time but do not know how or when.
+- **Misaligned local incentives caused by poor context:** participants appear adversarial because each sees only a narrow slice of the whole situation.
+
+Problems OneMind cannot fully solve by information alone include:
+
+- **True preference conflict:** participants knowingly want incompatible outcomes.
+- **Scarcity:** the same indivisible resource cannot satisfy everyone who wants it.
+- **Distributional conflict:** a surplus exists, but participants disagree on how benefits, costs, risk, or credit should be divided.
+- **Commitment without enforcement:** participants may understand the cooperative outcome but still have incentives to defect later.
+- **Zero-sum or negative-sum games:** one participant's gain necessarily reduces another's welfare, or all available actions impose loss.
+- **Contested welfare functions:** participants disagree about what the mediator should optimize.
+
+The core research question is therefore not whether OneMind solves all games, but how much of human strategic conflict belongs to the first class rather than the second. If many apparent conflicts are actually information, search, trust, and communication failures, an omniscient trusted mediator would transform a large part of social life from adversarial interaction into mediated coordination.
 
 ## Model Sketch
 
@@ -68,7 +92,7 @@ These are theorem candidates and empirical hypotheses, not established results.
 
 OneMind must explicitly acknowledge its limits.
 
-Even with omniscience and trust, it cannot guarantee a global optimum for every game. It cannot erase incompatible preferences, eliminate scarcity, make every welfare comparison objective, or resolve social choice conflicts where values are fundamentally contested. It may also create new problems: over-dependence on the mediator, manipulation of the mediator's objective function, disagreement about what counts as collective welfare, and loss of individual initiative.
+Even with omniscience and trust, OneMind cannot erase incompatible preferences, eliminate scarcity, make every welfare comparison objective, or resolve social choice conflicts where values are fundamentally contested. It may also create new problems: over-dependence on the mediator, manipulation of the mediator's objective function, disagreement about what counts as collective welfare, and loss of individual initiative.
 
 The research therefore treats OneMind as an idealized mechanism for studying certain classes of human coordination problems, not as a practical claim that a real system should immediately know everything about everyone.
 
