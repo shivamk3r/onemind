@@ -83,6 +83,21 @@ of these at a time:
 In your pull request, describe what changed, why it matters, and any remaining
 uncertainty. Mark speculative claims as speculative.
 
+## Authorship And Acknowledgements
+
+OneMind is open to adding substantial intellectual contributors to the paper
+author list. People who make substantial intellectual contributions, such as
+formal model development, major examples, proofs, simulations, related-work
+synthesis, or safety and governance analysis, may be added to the author list if
+they also participate in drafting or revising the paper and accept
+responsibility for their contribution.
+
+Smaller but useful contributions, including critiques, citation suggestions,
+minor examples, issue discussion, and wording improvements, should be credited
+in acknowledgements or public project history when appropriate. Authorship,
+contribution roles, acknowledgements, affiliations, and conflicts should be
+confirmed before any external submission or public preprint.
+
 ## Licensing
 
 By contributing, you agree that code contributions are licensed under the MIT

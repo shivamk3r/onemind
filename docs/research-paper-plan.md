@@ -4,26 +4,32 @@ Last updated: 2026-06-27
 
 ## Summary
 
-This plan turns OneMind from an early public research draft into a publishable
-paper over a 12-week cycle. The first target is a technical
-theory-and-examples paper, not a manifesto or product proposal. The paper should
-define an idealized omniscient trusted mediator, identify which coordination
-failures become easier under complete mediation, and clearly separate those
-cases from problems that remain structurally hard.
+This plan turns OneMind from an early public research draft into a paper-quality
+research contribution over a 12-week cycle. The goal is to investigate the model
+carefully, report what holds and what fails, and make the result useful for
+people or institutions making decisions about mediated coordination and AI
+systems. The first research output should be a technical theory-and-examples
+paper, not a manifesto or product proposal. The paper should define an idealized
+omniscient trusted mediator, identify which coordination failures become easier
+under complete mediation, and clearly separate those cases from problems that
+remain structurally hard.
 
-Primary publication route:
+Possible dissemination routes:
 
-- Prepare a preprint-ready draft.
-- Submit to a relevant NeurIPS 2026 workshop if the accepted workshop calls
-  match the paper.
+- Prepare a preprint-ready draft if the work becomes strong enough to release.
+- Consider a relevant NeurIPS 2026 workshop if the accepted workshop calls match
+  the paper and the draft is ready.
 - Use the NeurIPS workshop suggested contribution date of 2026-08-29 as a
-  planning date until a specific call for papers is checked.
-
-Fallback publication route:
-
-- Develop the stronger version for AAMAS 2027.
+  planning anchor until a specific call for papers is checked.
+- Develop a stronger version for AAMAS 2027 if the work gains enough
+  game-theoretic or multi-agent substance.
 - Use 2026-10-02 for abstract registration and 2026-10-09 for full paper
-  submission planning, subject to checking the live venue instructions.
+  submission planning only as conditional anchors, subject to checking the live
+  venue instructions.
+
+The project may pursue workshops, conferences, journals, or preprint release for
+visibility and credibility, but no venue acceptance is promised or treated as the
+core goal.
 
 The paper should be positioned as a research contribution in game theory,
 mechanism design, multi-agent systems, and mediated coordination. It should not
@@ -59,13 +65,14 @@ The first paper should make a crisp technical contribution:
 
 ### Week 1: Scope And Claim Posture
 
-- [ ] Lock working title, author list, audience, target route, and non-goals.
+- [ ] Lock working title, author and contributor roles, audience, possible
+      dissemination route, and non-goals.
 - [ ] Write a one-page contribution memo covering the problem, model, novelty,
       falsifiable claims, and claims the paper will not make.
-- [ ] Decide whether the first submission should emphasize game theory,
+- [ ] Decide whether the first external version should emphasize game theory,
       multi-agent systems, social choice, or AI governance.
-- [ ] Completion criterion: the paper can be explained in one paragraph without
-      sounding like a product pitch.
+- [ ] Completion criterion: the research question, non-goals, and usefulness can
+      be explained in one paragraph without sounding like a product pitch.
 
 ### Week 2: Related-Work Map
 
@@ -139,8 +146,9 @@ The first paper should make a crisp technical contribution:
 - [ ] Check that the abstract states the idealized nature of the model.
 - [ ] Check that the introduction explains why the paper is a research
       contribution rather than a deployment proposal.
-- [ ] Completion criterion: an external reader can review the full argument
-      without needing repository context.
+- [ ] Completion criterion: an external reader, including a researcher,
+      policymaker, or AI lab reviewer, can review the full argument without
+      needing repository context.
 
 ### Week 8: External Feedback
 
@@ -154,17 +162,19 @@ The first paper should make a crisp technical contribution:
 - [ ] Completion criterion: at least three serious readers have reviewed the
       draft and their main objections are recorded.
 
-### Week 9: Workshop-Ready Draft
+### Week 9: External-Ready Draft
 
-- [ ] Revise the paper into a workshop-ready draft.
+- [ ] Revise the paper into a draft that is strong enough for outside review,
+      preprint consideration, or a workshop if one fits.
 - [ ] Prepare title, abstract, keywords, PDF, source files, and short submission
       description.
 - [ ] Review accepted NeurIPS 2026 workshop calls and select the best-fit
       workshop only if the call for papers matches the paper.
-- [ ] Submit by the relevant workshop deadline if one fits; otherwise preserve
-      the draft for preprint and AAMAS development.
-- [ ] Completion criterion: the draft is strong enough to submit without relying
-      on future explanation.
+- [ ] If one fits and the draft is strong enough, decide whether to submit by the
+      relevant workshop deadline; otherwise preserve the draft for preprint,
+      AAMAS-style development, or further research.
+- [ ] Completion criterion: the draft is strong enough to circulate without
+      relying on future explanation.
 
 ### Week 10: Preprint Readiness
 
@@ -184,8 +194,8 @@ The first paper should make a crisp technical contribution:
 - [ ] Tighten definitions, proofs, examples, and related work.
 - [ ] Reformat and restructure toward an AAMAS-style main or blue-sky submission
       if appropriate.
-- [ ] Completion criterion: the paper has a credible fallback path beyond the
-      first workshop route.
+- [ ] Completion criterion: the paper has a credible development path beyond the
+      first workshop opportunity.
 
 ### Week 12: Submission Decision
 
@@ -195,12 +205,16 @@ The first paper should make a crisp technical contribution:
       full paper submission by 2026-10-09.
 - [ ] If targeting CSCW or journal-style review, revise the paper to better
       foreground social systems, governance, and design theory.
-- [ ] Completion criterion: the next publication action is chosen, dated, and
-      assigned.
+- [ ] Completion criterion: the next dissemination or research-development
+      action is chosen, dated, and assigned.
 
-## Venue Plan
+## Dissemination Plan
 
-### Primary: NeurIPS 2026 Workshop Route
+Venue planning is useful for deadlines, formatting, and credibility, but it is a
+dissemination aid rather than a promise. Use venue names and dates as planning
+anchors only when the research quality and call fit justify them.
+
+### Possible: NeurIPS 2026 Workshop Route
 
 Use this route if an accepted NeurIPS workshop call fits one of these framings:
 
@@ -216,7 +230,7 @@ Submission posture:
 - Include examples and limits to reduce the risk of being read as utopian or
   product-oriented.
 
-### Fallback: AAMAS 2027
+### Possible: AAMAS 2027
 
 Use this route if the paper develops enough multi-agent systems and
 game-theoretic substance.
@@ -263,7 +277,8 @@ The plan is complete when:
 - [ ] `docs/research-paper-plan.md` exists and renders cleanly as Markdown.
 - [ ] Every weekly milestone has a concrete deliverable and completion
       criterion.
-- [ ] The venue plan includes primary, fallback, and longer-horizon routes.
+- [ ] The dissemination plan includes optional workshop, conference, preprint,
+      journal, and longer-horizon routes without promising acceptance.
 - [ ] The plan clearly distinguishes technical research claims from speculative
       or governance claims.
 - [ ] Source links are listed for venue timing and arXiv category guidance.

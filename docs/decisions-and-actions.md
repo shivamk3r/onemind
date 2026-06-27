@@ -26,6 +26,9 @@ review gates that keep the public work precise, safe, and useful.
 - [ ] Build a related-work map with expected citations and adjacent concepts.
 - [ ] Keep privacy, consent, governance, misuse, and over-dependence limits
       visible in the main project materials.
+- [ ] Treat workshops, conferences, journals, and preprints as optional
+      dissemination paths, not as the core measure of whether the research
+      succeeded.
 
 ## Contribution Decisions
 
@@ -49,21 +52,38 @@ review gates that keep the public work precise, safe, and useful.
 - [ ] Choose the intended rigor level for the first version: theorem-heavy
       technical paper, theory-and-examples workshop paper, or position-style
       paper with formal scaffolding.
-- [ ] Keep the default primary route as a NeurIPS 2026 workshop if a matching
-      accepted workshop call appears.
-- [ ] Keep the default fallback route as AAMAS 2027 if the paper becomes strong
-      enough in game-theoretic or multi-agent substance.
+- [ ] Keep a NeurIPS 2026 workshop as a possible route if a matching accepted
+      workshop call appears and the draft is strong enough.
+- [ ] Keep AAMAS 2027 as a possible route if the paper becomes strong enough in
+      game-theoretic or multi-agent substance.
 - [ ] Use CSCW Rolling Design and Theory or a journal-style route only if the
       paper becomes more about social systems, governance, mediation, and
       interaction design.
 - [ ] Re-check the exact call for papers, page limits, anonymity rules,
       formatting rules, and submission deadline before any submission.
+- [ ] Confirm that any chosen venue is a fit for the finished research rather
+      than a promise that the project must satisfy.
+
+### Authorship And Credit
+
+- [ ] Identify substantial intellectual contributions using a CRediT-style
+      standard, including formal model development, major examples, proofs,
+      simulations, related-work synthesis, and safety or governance analysis.
+- [ ] Invite qualifying contributors into paper drafting or revision before
+      adding them to the author list.
+- [ ] Confirm that every listed author accepts responsibility for their
+      contribution.
+- [ ] Credit smaller but useful contributions through acknowledgements or public
+      project history when appropriate.
+- [ ] Confirm author list, contribution roles, affiliations, conflicts,
+      acknowledgements, and venue fit before any external submission or public
+      preprint.
 
 ### Claim Strength
 
 - [ ] Decide which claims should be stated as propositions, conjectures,
       hypotheses, or intuitions.
-- [ ] Decide whether the first submission should include proof sketches or
+- [ ] Decide whether the first external version should include proof sketches or
       reserve them for a later version.
 - [ ] Decide how much of the paper should emphasize what OneMind cannot solve.
 - [ ] Remove or soften claims that cannot be formalized cleanly.
@@ -179,9 +199,10 @@ review gates that keep the public work precise, safe, and useful.
 
 ### Ready For First External Submission
 
-- [ ] Target venue and exact call for papers are confirmed.
-- [ ] Author list, affiliations, conflicts, acknowledgements, and submission
-      metadata are confirmed.
+- [ ] Target venue and exact call for papers are confirmed as a fit for the
+      finished research, not as a promised outcome.
+- [ ] Author list, contribution roles, affiliations, conflicts,
+      acknowledgements, and submission metadata are confirmed.
 - [ ] At least three relevant readers have reviewed the draft, or the risk of
       submitting without them is intentional.
 - [ ] Strong claims are proven, marked conjectural, or softened.
@@ -198,4 +219,4 @@ review gates that keep the public work precise, safe, and useful.
       section, and appendix.
 - [ ] There is no private, sensitive, or non-consensual real-world example in
       the paper.
-- [ ] Public metadata and acknowledgements are final.
+- [ ] Public metadata, author roles, and acknowledgements are final.
