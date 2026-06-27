@@ -15,6 +15,7 @@ This file complements `docs/research-paper-plan.md`. The publication plan is the
 - [ ] Action needed from Shivam: Provide affiliations, email addresses, and any funding or acknowledgement text.
 - [ ] Decision needed from Shivam: Choose the main target audience: game theory, mechanism design, multi-agent systems, social choice, AI governance, or a hybrid.
 - [ ] Decision needed from Shivam: Choose the intended rigor level for the first version: theorem-heavy technical paper, theory-and-examples workshop paper, or position-style paper with formal scaffolding.
+- [ ] Decision needed from Shivam: Approve whether labor-market implications should remain a visible main-thesis section rather than an appendix-only discussion.
 - [ ] Action needed from Shivam: List at least three possible feedback readers, ideally one from game theory or mechanism design, one from multi-agent systems or AI, and one from ethics, governance, social systems, or social choice.
 - [ ] Decision needed from Shivam: Decide whether a public arXiv or other preprint release is desired before peer review.
 - [ ] Action needed from Shivam: Share any prior notes, diagrams, examples, conversations, or drafts that should shape the paper.
@@ -43,6 +44,7 @@ This file complements `docs/research-paper-plan.md`. The publication plan is the
 - [ ] Decision needed from Shivam: Decide whether the paper should include proof sketches in the first submission or reserve them for the AAMAS-strengthened version.
 - [ ] Decision needed from Shivam: Decide how much of the paper should emphasize what OneMind cannot solve.
 - [ ] Decision needed from Shivam: Decide the threshold for removing or softening a claim that cannot be formalized cleanly.
+- [ ] Decision needed from Shivam: Decide how strongly to state job-displacement claims: conservative transformation language, explicit shrink/disappear language, or a split by confidence level.
 - [ ] Action needed from Shivam: Review the final claim list and mark anything that feels too broad, too weak, or too risky.
 
 ### Formal Model Choices
@@ -70,6 +72,14 @@ This file complements `docs/research-paper-plan.md`. The publication plan is the
 - [ ] Decision needed from Shivam: Pick the harmful-intervention or no-action example.
 - [ ] Decision needed from Shivam: Decide whether examples should be abstract games, realistic social scenarios, or paired versions of both.
 - [ ] Action needed from Shivam: Provide any real-world scenarios that inspired OneMind and can be safely abstracted.
+
+### Labor Market Implications
+
+- [ ] Decision needed from Shivam: Approve the initial "likely to shrink or disappear" job-title list: schedulers, dispatch coordinators, basic recruiters, routine executive assistants, data-entry clerks, customer support triage agents, claims processors, travel coordinators, simple brokerage or matching roles, and routine project coordinators.
+- [ ] Decision needed from Shivam: Approve the initial "likely to stay or become more valuable" job-title list: nurses, therapists, teachers, judges or arbitrators, doctors, engineers, craftspeople, frontline managers, caregivers, artists or designers, community leaders, and negotiators in high-stakes value conflicts.
+- [ ] Decision needed from Shivam: Approve the initial "likely to emerge" job-title list: OneMind governance auditor, consent and data steward, mediator behavior evaluator, welfare-function reviewer, human agency advocate, coordination systems designer, transition counselor, AI-mediated relationship coach, and trust-and-safety mediator.
+- [ ] Decision needed from Shivam: Decide whether the paper should use these job titles directly in the main text or move the full list into a table.
+- [ ] Action needed from Shivam: Review the labor-market section against current sources and mark any job category that feels overstated, missing, or politically sensitive.
 
 ### Related Work
 
@@ -136,6 +146,7 @@ This file complements `docs/research-paper-plan.md`. The publication plan is the
 - [ ] Action needed from Shivam: Review the list of problems OneMind cannot fully solve: true preference conflict, scarcity, distributional conflict, commitment without enforcement, zero-sum or negative-sum games, and contested welfare.
 - [ ] Action needed from Shivam: Provide or approve at least one example for each side of the boundary.
 - [ ] Action needed from Shivam: Confirm that the paper clearly says information alone does not solve all human conflict.
+- [ ] Action needed from Shivam: Confirm that the labor-market claims respect the same boundary: coordination-heavy work can shrink, but scarcity, accountability, embodied care, contested values, and legitimacy do not disappear.
 
 ### Examples, Propositions, And Proof Sketches
 
@@ -148,7 +159,7 @@ This file complements `docs/research-paper-plan.md`. The publication plan is the
 
 ### Full Draft
 
-- [ ] Action needed from Shivam: Review the complete v0.1 draft once it includes abstract, introduction, related work, model, solvability boundary, examples, propositions, limits, and appendix outline.
+- [ ] Action needed from Shivam: Review the complete v0.1 draft once it includes abstract, introduction, related work, model, solvability boundary, labor-market implications, examples, propositions, limits, and appendix outline.
 - [ ] Action needed from Shivam: Check whether the abstract makes the idealized nature of the model clear.
 - [ ] Action needed from Shivam: Check whether the introduction frames the work as research rather than deployment.
 - [ ] Action needed from Shivam: Confirm that the draft stands alone without requiring the README or personal explanation.

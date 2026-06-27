@@ -88,6 +88,52 @@ The paper will investigate claims such as:
 
 These are theorem candidates and empirical hypotheses, not established results.
 
+## Labor Market Implications
+
+OneMind also raises a labor-market research question: if an idealized trusted mediator could reliably perform search, matching, triage, scheduling, routing, remembering, clarifying, and low-stakes negotiation across many people, which jobs would shrink, which would remain, and which new jobs would become necessary? This should be treated as a conditional hypothesis about the OneMind model, not as a near-term deployment forecast or a claim that whole occupations vanish cleanly.
+
+Roles most likely to shrink, merge, or disappear as standalone jobs are roles whose primary value is routine coordination under incomplete information:
+
+- schedulers,
+- dispatch coordinators,
+- basic recruiters,
+- executive assistants focused mainly on routine coordination,
+- data-entry clerks,
+- customer support triage agents,
+- claims processors,
+- travel coordinators,
+- simple brokerage and matching roles,
+- routine project coordinators.
+
+Roles likely to stay or become more valuable are roles grounded in care, embodied practice, professional accountability, judgment under contested values, creative responsibility, or trust that cannot be reduced to information routing:
+
+- nurses,
+- therapists,
+- teachers,
+- judges and arbitrators,
+- doctors,
+- engineers,
+- craftspeople,
+- frontline managers,
+- caregivers,
+- artists and designers,
+- community leaders,
+- negotiators in high-stakes value conflicts.
+
+New roles may emerge around governing, auditing, interpreting, and contesting mediated coordination:
+
+- OneMind governance auditor,
+- consent and data steward,
+- mediator behavior evaluator,
+- welfare-function reviewer,
+- human agency advocate,
+- coordination systems designer,
+- transition counselor,
+- AI-mediated relationship coach,
+- trust-and-safety mediator.
+
+The key distinction is not "AI replaces humans" versus "AI helps humans." In the OneMind model, work changes according to how much of a role depends on fragmented information, delayed communication, search costs, memory, triage, and trusted mediation. Roles remain harder to compress when they depend on scarcity, embodied care, legal or moral accountability, contested welfare, physical execution, taste, legitimacy, or deep human relationship. The paper should compare this taxonomy against current labor-market evidence, including the [World Economic Forum Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/), the [ILO 2025 generative AI occupational exposure index](https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure), [BLS AI employment-projection case studies](https://www.bls.gov/opub/ted/2025/ai-impacts-in-bls-employment-projections.htm), and the [OECD future of work overview](https://www.oecd.org/en/topics/policy-issues/future-of-work.html).
+
 ## Limits
 
 OneMind must explicitly acknowledge its limits.

@@ -27,6 +27,7 @@ The first paper should make a crisp technical contribution:
 - A solvability-boundary analysis that distinguishes information, search, trust, communication, and equilibrium-selection failures from scarcity, incompatible preferences, enforcement gaps, zero-sum conflict, and contested welfare.
 - Proposition-level claims or theorem candidates, with proof sketches where possible and conjectural status clearly marked where proof is not yet complete.
 - Worked examples showing where OneMind improves coordination and where intervention should be delayed, declined, or treated as unsafe.
+- A labor-market implications section that analyzes which job titles could shrink, persist, transform, or emerge under the idealized OneMind model, while avoiding unsupported deployment forecasts.
 - A related-work map that places the paper near mechanism design, information design, social choice, bargaining, coordination games, multi-agent systems, collective intelligence, and AI governance.
 - A governance appendix that explains why the paper studies an idealized mediator rather than proposing immediate real-world omniscience.
 
@@ -59,6 +60,7 @@ The first paper should make a crisp technical contribution:
 - [ ] Define classes of failures that omniscient mediation can reduce: incomplete information, search, equilibrium selection, mistrust, and communication timing.
 - [ ] Define cases that remain hard: true preference conflict, scarcity, distributional conflict, commitment without enforcement, zero-sum or negative-sum games, and contested welfare.
 - [ ] Add at least one example for each class.
+- [ ] Draft the labor-market implication boundary: jobs likely to shrink when they mainly perform routine coordination, and jobs likely to persist when they depend on embodied care, accountability, contested values, creative judgment, or physical execution.
 - [ ] Completion criterion: the paper does not imply that information alone solves all human conflict.
 
 ### Week 5: Worked Examples
@@ -79,7 +81,7 @@ The first paper should make a crisp technical contribution:
 
 ### Week 7: Draft v0.1
 
-- [ ] Complete a full draft with abstract, introduction, related work, model, solvability boundary, examples, propositions, limits, and appendix outline.
+- [ ] Complete a full draft with abstract, introduction, related work, model, solvability boundary, labor-market implications, examples, propositions, limits, and appendix outline.
 - [ ] Check that the abstract states the idealized nature of the model.
 - [ ] Check that the introduction explains why the paper is a research contribution rather than a deployment proposal.
 - [ ] Completion criterion: an external reader can review the full argument without needing the repository README.
@@ -166,6 +168,7 @@ Before submission, the draft should answer these reviewer questions:
 - Which problems become easier under the model?
 - Which problems provably or structurally remain hard?
 - What is new relative to mechanism design, information design, social choice, bargaining, and multi-agent coordination?
+- Which job titles plausibly shrink, persist, transform, or emerge under the model, and are those claims stated as conditional research hypotheses?
 - Are the examples formal enough to test the claims?
 - Are privacy, consent, governance, and misuse limits acknowledged without taking over the paper?
 
@@ -181,7 +184,7 @@ The plan is complete when:
 
 The paper is ready for a first external submission when:
 
-- [ ] The paper has a complete draft with abstract, introduction, related work, formal model, solvability boundary, examples, propositions or theorem candidates, limits, and appendix material.
+- [ ] The paper has a complete draft with abstract, introduction, related work, formal model, solvability boundary, labor-market implications, examples, propositions or theorem candidates, limits, and appendix material.
 - [ ] At least three relevant readers have reviewed it.
 - [ ] The strongest claims are either proven, marked as conjectural, or softened.
 - [ ] The target venue's current CFP, formatting rules, and deadline have been re-checked.
@@ -194,3 +197,7 @@ The paper is ready for a first external submission when:
 - arXiv category fit: [arXiv category taxonomy](https://arxiv.org/category_taxonomy)
 - arXiv CS position and review-paper caution: [arXiv CS moderation update](https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/)
 - CSCW fallback route: [CSCW Rolling model](https://cscw.acm.org/2026/rolling.html)
+- Labor-market baseline: [World Economic Forum Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/)
+- Occupational exposure baseline: [ILO generative AI occupational exposure index](https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure)
+- U.S. employment projection baseline: [BLS AI impacts in employment projections](https://www.bls.gov/opub/ted/2025/ai-impacts-in-bls-employment-projections.htm)
+- Future-of-work policy baseline: [OECD future of work overview](https://www.oecd.org/en/topics/policy-issues/future-of-work.html)
